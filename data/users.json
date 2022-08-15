@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nickname": "我是 user01",
+        "username": "user01",
+        "password": "pwd123"
+    },
+    {
+        "id": 2,
+        "nickname": "管理員",
+        "username": "admin",
+        "password": "pwd123"
+    },
+    {
+        "id": "0e21bdb5e5c90e",
+        "username": "yoyo",
+        "nickname": "hihi",
+        "password": "pwd123"
+    },
+    {
+        "id": "005a7c809b02a8",
+        "username": "HHH",
+        "nickname": "HHH",
+        "password": "pwd123"
+    },
+    {
+        "id": "015bfa844587a7",
+        "username": "hey",
+        "nickname": "hello",
+        "password": "pwd123"
+    }
+]

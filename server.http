@@ -1,0 +1,58 @@
+@serverUrl = http://localhost:3310
+
+@serverUrl =https://my-json-server.typicode.com/NJ-Programming/json-server-test
+
+###
+GET {{serverUrl}}/posts
+
+
+###
+GET {{serverUrl}}/posts/1
+
+
+###
+POST {{serverUrl}}/posts
+
+
+{
+    "title": "first post",
+    "author": "janet"
+}
+
+
+###
+PUT {{serverUrl}}/posts/1
+
+
+
+###
+PATCH {{serverUrl}}/posts/1
+
+
+
+###
+DELETE {{serverUrl}}/posts/1
+
+
+
+### 註冊
+POST {{serverUrl}}/register
+content-type: application/json
+
+{
+    "nickname": "hello",
+    "username": "hey",
+    "password": "pwd123"
+}
+
+
+
+### 登入
+POST {{serverUrl}}/login
+content-type: application/json
+
+{
+    "username": "hey",
+    "password": "pwd123"
+}
+
