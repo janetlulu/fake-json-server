@@ -1,0 +1,14 @@
+{
+    "result": [],
+    "android": {
+        "current_version": "1.2.8",
+        "major_version": "1.2.8",
+        "major_update": "1"
+    },
+    "ios": {
+        "current_version": "1.2.3",
+        "major_version": "1.2.3",
+        "major_update": "1"
+    },
+    "result_code": 200
+}
