@@ -1,16 +1,16 @@
 @serverUrl = http://localhost:3310
 
-#@serverUrl =https://fake-json-server-janet.herokuapp.com
+@serverUrl =https://fake-json-server-janet.herokuapp.com
 
-### 查詢全部
+### 查詢 post
 GET {{serverUrl}}/posts
 
 
-### 查詢單筆
+### 查詢 post 單筆
 GET {{serverUrl}}/posts/1
 
 
-### 新增資料
+### 新增 post 資料
 POST {{serverUrl}}/posts
 content-type: application/json
 
@@ -20,7 +20,7 @@ content-type: application/json
     "body": "content"
 }
 
-### 修改資料
+### 修改 post 資料
 
 PUT {{serverUrl}}/posts/7
 content-type: application/json
@@ -31,7 +31,7 @@ content-type: application/json
     "body": "content"
 }
 
-### 刪除資料
+### 刪除 post 資料
 
 Delete {{serverUrl}}/posts/4
 
@@ -63,4 +63,7 @@ content-type: application/json
 
 ###
 
+#######################################################
 
+### 查詢 news
+GET {{serverUrl}}/news
